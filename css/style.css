@@ -53,7 +53,7 @@ body {
 
 .heading{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-bottom: 64px;
 }
 .header h1{
@@ -75,7 +75,6 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-
     display: flex;
     align-items:flex-end;
     justify-content: flex-end;
@@ -83,6 +82,7 @@ body {
 
 .header .header-desc p{
     max-width: 352px;
+    text-align: justify;
 }
 
 .header .content img{
@@ -115,4 +115,180 @@ body {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
+}
+
+/* meet the artis */
+
+.meet-header{
+    margin-bottom: 64px;
+}
+
+
+.meet-header .meet-title h1{
+    color: #1F1F1F;
+    text-align: center;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    line-height: 100%;
+}
+.meet-header .meet-title .italic{
+    color: #1F1F1F;
+    text-align: center;
+    font-size: 144px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 100%;
+}
+.meet-header .meet-title p{
+    width: 650px;
+    color: #1F1F1F;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 auto;
+    
+}
+.container .img-placeholder{
+    gap: 21px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+/* why-section */
+
+.why-section .container{
+    max-width: 1344px;
+    margin: 0 auto;
+    padding: 64px;
+}
+.why-section .content-top{
+    display: flex;
+    height: 159px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+}
+.why-section .content-top .number{
+    font-size: 64px;
+    font-weight: 500;
+    align-items:center;
+    width: 144px;
+    height: 159px;
+    display: flex;
+}
+.why-section .content-top .desc{
+    margin-left: 144px auto;
+}
+.why-section .content-top .desc h4{
+    font-weight: 700;
+    width: 889px;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.why-section .desc p{
+    width: 877px;
+    height: 93px;
+    font-size: 24px;
+    text-align: justify;
+}
+.why-section .content-middle{
+    display: flex;
+    height: 159px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+}
+.why-section .content-middle .number{
+    font-size: 64px;
+    font-weight: 500;
+    align-items:center;
+    width: 144px;
+    height: 159px;
+    display: flex;
+}
+.why-section .content-middle .desc{
+    margin-left: 144px auto;
+}
+.why-section .content-middle .desc h4{
+    font-weight: 700;
+    width: 889px;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.why-section .desc p{
+    width: 877px;
+    height: 93px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.why-section .content-buttom{
+    display: flex;
+    height: 159px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+}
+.why-section .content-buttom .number{
+    font-size: 64px;
+    font-weight: 500;
+    align-items:center;
+    width: 144px;
+    height: 159px;
+    display: flex;
+}
+.why-section .content-buttom .desc{
+    margin-left: 144px auto;
+}
+.why-section .content-buttom .desc h4{
+    font-weight: 700;
+    width: 889px;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.why-section .desc p{
+    width: 877px;
+    height: 93px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+/* lets have talk */
+.lets-have-talk{
+}
+.container-lets-have-talk{
+    max-width: 1344px;
+    height: 551px;
+    margin: 0 auto;
+    background-color:#1F1F1F;
+    padding: 72px 0;
+}
+.container-lets-have-talk p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+    text-align: center;
+}
+.container-lets-have-talk h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.container-lets-have-talk a{
+    width: 120px;
+    height: 120px;
+    align-items: center;
 }
